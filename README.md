@@ -118,8 +118,8 @@ This is the one of the more fleshed out packs in this list.
 ## Loggr
 **namespace: 'loggr'**
 
-A very simple logging api for datapack development/overseeing.\n
-Has its own (unfinished) [readme.txt](Packs/Loggr/data/loggr/functions/readme.txt)
+A very simple logging api for datapack development/overseeing.
+ Has its own (unfinished) [readme.txt](Packs/Loggr/data/loggr/functions/readme.txt)
 
 All logs made by this api are stored in the front of the nbt storage array `loggr:data -> logs`.
 This array has a default soft 'capacity' of 10000 (can be changed via [settings](Packs/Loggr/data/loggr/functions/settings.mcfunction), and will delete from the back of the array to match this capacity every 5 seconds.
