@@ -41,7 +41,7 @@ Despite being in the "finished" archive, this pack is not finished, but it is a 
 
 Gives a selection of common hostile mobs special powers, intended to make them more difficult.
 
-#### Zombie
+### Zombie
 *There is no killing the horde.*
 - Increased health.
 - Can always break doors.
