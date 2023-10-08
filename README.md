@@ -22,8 +22,8 @@ This pack has a [youtube video](https://youtu.be/PvYTfHrL38M)
 
 Very similar to 'Death Boxes v1' except for the following differences:
 - Death Box is represented by an Ender Chest item entity instead of a glass block.
-  - This means that Death Boxes can move via water, pistons, hoppers, etc.*
-  - Death Boxes can not be destroyed by lava/explosions by default. (This behavior can be changed through [pack controls](../blob/main/Packs/Death%20Boxes%20v2/data/gdeathboxes/functions/controls/setdefaults.mcfunction))*
+  - This means that Death Boxes can move via water, pistons, hoppers, etc.
+  - Death Boxes cannot be destroyed by lava/explosions by default. (This behavior can be changed through [pack controls](../blob/main/Packs/Death%20Boxes%20v2/data/gdeathboxes/functions/controls/setdefaults.mcfunction))
 - Instead of opening immediately, Death Boxes can be stored in inventory space, and only open when held in hand.
 - Death Boxes emit particles only seen by their owner. (This can also be changed through [pack controls](../blob/main/Packs/Death%20Boxes%20v2/data/gdeathboxes/functions/controls/setdefaults.mcfunction))
 - Better and cleaner implementation in general.
@@ -39,3 +39,11 @@ Despite being in the "finished" archive, this pack is not finished, but it is a 
 ## Hard Mobs v1
 **namespace: 'bmobs'**
 
+Gives a selection of common hostile mobs special powers, intended to make them more difficult.
+
+- **Zombie:** *"The Horde"
+ - Increased health.
+ - Can always break doors.
+ - Greatly increased knockback resistance.
+ - Will spawn reinforcement zombies *very* often.
+ - Gains temporary (3s) speed, resistance, and strength when damaged.
