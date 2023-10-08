@@ -8,7 +8,7 @@ The "documentation" provided by this ReadMe is not fully comprehensive, I do not
 
 **All packs are meant for Minecraft 1.19 unless otherwise stated**
 
-Alt-Packs
+Packs
 ======
 ## Death Boxes v1
 **namespace: 'realm'**
