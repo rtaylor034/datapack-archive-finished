@@ -40,6 +40,7 @@ Despite being in the "finished" archive, this pack is not finished, but it is a 
 **namespace: 'bmobs'**
 
 Changes a handful of common hostile mobs with intent to make combat more interesting and difficult.
+This is the one of the more fleshed out packs in this list.
 
 ### Zombie
 - Increased health.
@@ -113,3 +114,9 @@ Changes a handful of common hostile mobs with intent to make combat more interes
 - Always spawns with full armor, a sword, and a bow.
 - Will switch between using a bow and sword based on distance to the player.
 - Has a chance to drop a 'Nether Helm'.
+
+## Loggr
+**namespace: 'loggr'**
+
+A very simple logging api for datapack development/overseeing.
+Has its own [readme.txt](Packs/Loggr/data/loggr/functions/readme.txt)
