@@ -1,10 +1,10 @@
-## Description
+## Archive Description
 This repository is an archive for datapacks that I am no longer working on but are in a "finished" state, meaning that they are stable enough to be downloaded and used by someone other than me.
 This does not necessarily mean that they are ready or meant for public use, just that they perform their function properly and cleanly.
 
 Packs here vary in quality, not only becuase of differences in intended usage but also the difference in my own skill when a given pack was made.
 
-The "documentation" provided by this README is not fully comprehensive, I do not actually expect these packs to be publicly used.
+The descriptions provided by this README is not fully comprehensive, I do not actually expect these packs to be publicly used.
 *Packs that are meant for public use will have their own repository.*
 
 **All packs are meant for Minecraft 1.19 unless otherwise stated**
@@ -122,7 +122,7 @@ A very simple logging api for datapack development/overseeing.
  Has its own (unfinished) [readme.txt](Packs/Loggr/data/loggr/functions/readme.txt)
 
 All logs made by this api are stored in the front of the nbt storage array `loggr:data -> logs`.
-This array has a default soft 'capacity' of 10000 (can be changed via [settings](Packs/Loggr/data/loggr/functions/settings.mcfunction), and will delete from the back of the array to match this capacity every 5 seconds.
+This array has a default soft 'capacity' of 10000 (can be changed via [settings](Packs/Loggr/data/loggr/functions/settings.mcfunction)), and will delete from the back of the array to match this capacity every 5 seconds.
 
 
 A player can set their `loggr_listento` score to listen to logs with a log level greather than or equal to it, recieving real-time chat messages.
