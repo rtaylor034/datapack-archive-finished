@@ -118,7 +118,7 @@ This is the one of the more fleshed out packs in this list.
 ## Loggr
 **namespace: 'loggr'**
 
-A very simple logging api for datapack development/overseeing.
+A very simple logging api for datapack development/overseeing.\n
 Has its own (unfinished) [readme.txt](Packs/Loggr/data/loggr/functions/readme.txt)
 
 All logs made by this api are stored in the front of the nbt storage array `loggr:data -> logs`.
