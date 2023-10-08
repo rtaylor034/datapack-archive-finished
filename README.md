@@ -39,12 +39,50 @@ Despite being in the "finished" archive, this pack is not finished, but it is a 
 ## Hard Mobs v1
 **namespace: 'bmobs'**
 
-Gives a selection of common hostile mobs special powers, intended to make them more difficult.
+Changes a handful of common hostile mobs with intent to combat more interesting and difficult.
 
 ### Zombie
-*There is no killing the horde.*
 - Increased health.
 - Can always break doors.
 - Greatly increased knockback resistance.
-- Will spawn reinforcement zombies *very* often.
 - Gains temporary (3s) speed, resistance, and strength when damaged.
+- Will call for reinforcement zombies if provoked and not killed quickly.
+
+### Skeleton
+- Greatly increased movement speed.
+- Greatly increased aggro range.
+- Greatly increased fire rate.
+- Slightly reduced health.
+- Will intentionally keep distance from the player, jumping backward with every arrow fired.
+
+### Spider
+- Greatly increased attack damage.
+- Increased movement speed.
+- Slightly reduced health.
+- Will leap at the player to engage.
+- Spawns in packs of three.
+
+### Creeper
+- Very low health.
+- *Incredibly* fast.
+- Increased aggro range.
+- Will explode much sooner after ignited.
+
+### Enderman
+*Enderman were already pretty strong and unique, so only a small change*
+- When damaged, will always teleport to attack from another angle, leaving an endermite in its place.
+
+### Slime
+- Very resistant to explosions, projectiles, and knockback.
+- When damaged, slows and weakens nearby players.
+- Slimes of the same size will merge into a bigger slime if given enough time.
+
+### Husk
+- Extremely high health.
+- Completely invulnerable to knockback.
+- Slightly increased attack damage.
+- If is on sand:
+  - Gains resistance.
+  - Nearby players are slowed, weakened, and unable to jump.
+
+### Drowned
