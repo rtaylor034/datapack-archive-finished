@@ -23,9 +23,9 @@ This pack has a [youtube video](https://youtu.be/PvYTfHrL38M)
 Very similar to 'Death Boxes v1' except for the following differences:
 - Death Box is represented by an Ender Chest item entity instead of a glass block.
   - This means that Death Boxes can move via water, pistons, hoppers, etc.
-  - Death Boxes cannot be destroyed by lava/explosions by default. (This behavior can be changed through [pack controls](../blob/main/Packs/Death%20Boxes%20v2/data/gdeathboxes/functions/controls/setdefaults.mcfunction))
+  - Death Boxes cannot be destroyed by lava/explosions by default. (This behavior can be changed through [pack controls](Packs/Death%20Boxes%20v2/data/gdeathboxes/functions/controls/setdefaults.mcfunction))
 - Instead of opening immediately, Death Boxes can be stored in inventory space, and only open when held in hand.
-- Death Boxes emit particles only seen by their owner. (This can also be changed through [pack controls](../blob/main/Packs/Death%20Boxes%20v2/data/gdeathboxes/functions/controls/setdefaults.mcfunction))
+- Death Boxes emit particles only seen by their owner. (This can also be changed through [pack controls](Packs/Death%20Boxes%20v2/data/gdeathboxes/functions/controls/setdefaults.mcfunction))
 - Better and cleaner implementation in general.
 
 ## Gssentials
@@ -119,4 +119,10 @@ This is the one of the more fleshed out packs in this list.
 **namespace: 'loggr'**
 
 A very simple logging api for datapack development/overseeing.
-Has its own [readme.txt](Packs/Loggr/data/loggr/functions/readme.txt)
+Has its own (unfinished) [readme.txt](Packs/Loggr/data/loggr/functions/readme.txt)
+
+All logs made by this api are stored in the front of the nbt storage array `loggr:data -> logs`.
+This array has a default soft 'capacity' of 10000 (can be changed via [settings](Packs/Loggr/data/loggr/functions/settings.mcfunction), and will delete from the back of the array to match this capacity every 5 seconds.
+
+
+A player can set their `loggr_listento` score to listen to logs with a log level greather than or equal to it, recieving real-time chat messages.
