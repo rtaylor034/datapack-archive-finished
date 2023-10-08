@@ -39,13 +39,13 @@ Despite being in the "finished" archive, this pack is not finished, but it is a 
 ## Hard Mobs v1
 **namespace: 'bmobs'**
 
-Changes a handful of common hostile mobs with intent to combat more interesting and difficult.
+Changes a handful of common hostile mobs with intent to make combat more interesting and difficult.
 
 ### Zombie
 - Increased health.
 - Can always break doors.
 - Greatly increased knockback resistance.
-- Gains temporary (3s) speed, resistance, and strength when damaged.
+- Gains temporary speed, resistance, and strength when hit.
 - Will call for reinforcement zombies if provoked and not killed quickly.
 
 ### Skeleton
@@ -66,23 +66,50 @@ Changes a handful of common hostile mobs with intent to combat more interesting 
 - Very low health.
 - *Incredibly* fast.
 - Increased aggro range.
-- Will explode much sooner after ignited.
+- Will explode much sooner after primed.
 
 ### Enderman
 *Enderman were already pretty strong and unique, so only a small change*
-- When damaged, will always teleport to attack from another angle, leaving an endermite in its place.
+- will always teleport to attack from another angle when hit, leaving an endermite in its place.
 
 ### Slime
 - Very resistant to explosions, projectiles, and knockback.
-- When damaged, slows and weakens nearby players.
+- temporarily slows and weakens nearby players when hit.
 - Slimes of the same size will merge into a bigger slime if given enough time.
 
 ### Husk
 - Extremely high health.
 - Completely invulnerable to knockback.
 - Slightly increased attack damage.
-- If is on sand:
+- When on sand:
   - Gains resistance.
   - Nearby players are slowed, weakened, and unable to jump.
 
 ### Drowned
+- Greatly increased aggro range.
+- Increased attack damage.
+- Slightly increased knockback resistance.
+- Slighty increased health.
+- Is able to lunge while in water.
+
+### Ghast
+- Greatly increased aggro range.
+- Greatly increased knockback resistance.
+- Slightly increased health.
+- Fireballs are more powerful, and acccelerate toward their destination. (This makes them very difficult to be hit back)
+
+### Blaze
+- Spawns with three 'shield' charges.
+  - Indicated by a rotating flame particle around the blaze.
+  - Absorbs one instance of damage that would have damaged the blaze.
+  - Regenerates 5 seconds after all three have been broken.
+- Fireballs are more powerful.
+- Slightly increased health.
+
+### Wither Skeleton
+- Increased health.
+- Increased movement speed.
+- Increased aggro range.
+- Always spawns with full armor, a sword, and a bow.
+- Will switch between using a bow and sword based on distance to the player.
+- Has a chance to drop a 'Nether Helm'.
