@@ -41,9 +41,10 @@ Despite being in the "finished" archive, this pack is not finished, but it is a 
 
 Gives a selection of common hostile mobs special powers, intended to make them more difficult.
 
-- **Zombie:** *"The Horde"
- - Increased health.
- - Can always break doors.
- - Greatly increased knockback resistance.
- - Will spawn reinforcement zombies *very* often.
- - Gains temporary (3s) speed, resistance, and strength when damaged.
+#### Zombie
+*There is no killing the horde.*
+- Increased health.
+- Can always break doors.
+- Greatly increased knockback resistance.
+- Will spawn reinforcement zombies *very* often.
+- Gains temporary (3s) speed, resistance, and strength when damaged.
