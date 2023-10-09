@@ -12,6 +12,31 @@ The descriptions provided by this README is not fully comprehensive, I do not ac
 
 Packs
 ======
+## SlimeCore v1
+**namespace: 'slime'**
+
+A library pack that provides various common and/or useful operations.
+
+Also provides a 'tracker' API for storing custom player NBT data.
+
+Every public function is in the format `slime/functions/<category>/.../<function>/run.mcfunction`.<br>
+Documentation for each function is contained within it's `run.mcfunction` file.
+### Summary of Included Functions
+- Array
+  - `cycleto`: Cycles through an array until the given NBT match is found at element 0.
+  - `getmatching`: Finds elements of an array that match given NBT.
+  - `mergetoall`: Merges given NBT to all elements of an array.
+  - `seperateby`: Inserts a duplicate of a given element inbetween every element of an array.
+- Math
+  - `mot2rot`: 'Motion to Rotation' - Converts a positional Vector3 to a rotational Vector2 (direction).
+  - `rot2mot`: Inverse of `mot2rot`.
+  - `rgb2decimal`: Converts a 0-255 Vector3 color to a decimal representation. (Only really useful for custom leather dying)
+  - `random`: Generates a random number between 0 and a given value.
+- Player
+  - `xpbar/set`: Sets the players XP bar precicely to the given percentage and level.
+- Text
+  - `parse`: Parses unfriendly dynamic json text to friendly static json text. (implemented with setting/getting sign text NBT)
+  
 ## Death Boxes v1
 **namespace: 'realm'**
 *(Even though this namespace is is bad, I will not be changing it due to its archived status)*
@@ -38,6 +63,8 @@ Very similar to 'Death Boxes v1' except for the following differences:
 **namespace: 'gssen'**
 
 A simple library pack that provides common math and array operations.<br>
+Just a high-quality rewrite of a subset of SlimeCore v1.
+
 Documentation is provided in each functions respective gssen/functions/api/... path.
 
 Despite being in the "finished" archive, this pack is not finished (although it is stable), but it is a dependency of some finished packs.
