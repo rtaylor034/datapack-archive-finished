@@ -21,9 +21,13 @@ Also provides a 'tracker' API for storing custom player NBT data.
 
 Every public function is in the format `slime/functions/<category>/.../<function>/run.mcfunction`.<br>
 Documentation for each function is contained within it's `run.mcfunction` file.
+
+This pack also includes a [text file](Packs/SlimeCore%20v1/DOCS.txt) with general documentation formatting standards of the time.<br>
+*these are not up to date with my current standards*
+
 ### Summary of Included Functions
 - Array
-  - `cycleto`: Cycles through an array until the given NBT match is found at element 0 (or if the entire array is cycled).
+  - `cycleto`: Finds the first element that matches given NBT and cycles the array until its at the front.
   - `getmatching`: Finds elements of an array that match given NBT.
   - `mergetoall`: Merges given NBT to all elements of an array.
   - `seperateby`: Inserts a duplicate of a given element inbetween every element of an array.
@@ -66,6 +70,9 @@ A simple library pack that provides common math and array operations.<br>
 Just a high-quality rewrite of a subset of SlimeCore v1.
 
 Documentation is provided in each functions respective gssen/functions/api/... path.
+
+Includes an [example API function](Packs/Gssentials/data/gssen/functions/api/myapifunction.mcfunction) to outline what is to be expected of documentation.<br>
+*This is more in-line with my current documentation standards, although it does not cover everything*
 
 Despite being in the "finished" archive, this pack is not finished (although it is stable), but it is a dependency of some finished packs.
 
