@@ -126,7 +126,7 @@ This is the one of the more fleshed out packs in this list.
 A very simple logging api for datapack development/overseeing.
  Has its own (unfinished) [readme.txt](Packs/Loggr/data/loggr/functions/readme.txt)
 
-All logs made by this api are stored in the front of the nbt storage array `loggr:data -> logs`.
+All logs pushed to the front of nbt storage array `loggr:data -> logs`.<br>
 This array has a default soft 'capacity' of 10000 (can be changed via [settings](Packs/Loggr/data/loggr/functions/settings.mcfunction)), and will delete from the back of the array to match this capacity every 5 seconds.
 
 A player can set their `loggr_listento` score to listen to logs with a log level greather than or equal to it, recieving real-time chat messages.
@@ -150,7 +150,7 @@ if the score value associated with their desired color is known.
 **optionally supports: 'loggr'**
 
 Provides nbt storage data as well as a score ID unique to each player.<br>
-Both player data and score ID is kept consistent through player name changes. (Uses UUID matching)
+Both player data and score ID is kept consistent through player name changes. (Uses UUID matching)<br>
 
 ### Player NBT Data
 The very first time a player joins the world, an entry is appended to the nbt storage array `pdata:data -> playerdata` containing:
