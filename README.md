@@ -36,10 +36,10 @@ Very similar to 'Death Boxes v1' except for the following differences:
 ## Gssentials
 **namespace: 'gssen'**
 
-A simple library pack that provides common math and array operations.
+A simple library pack that provides common math and array operations.<br>
 Documentation is provided in each functions respective gssen/functions/api/... path.
 
-Despite being in the "finished" archive, this pack is not finished, but it is a dependency of some finished packs.
+Despite being in the "finished" archive, this pack is not finished (although it is stable), but it is a dependency of some finished packs.
 
 ## Hard Mobs v1
 **namespace: 'bmobs'**
