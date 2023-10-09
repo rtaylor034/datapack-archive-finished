@@ -145,18 +145,25 @@ Alternatively, players can run:
 if the score value associated with their desired color is known.
 
 ## PlayerData
-**namespace: 'pdata'**
+**namespace: 'pdata'**<br>
+**dependencies: 'gssen'**<br>
+**optionally supports: 'loggr'**
 
-Provides nbt storage data as well as a score ID unique to each player.
-
+Provides nbt storage data as well as a score ID unique to each player.<br>
 Both player data and score ID is kept consistent through player name changes. (Uses UUID matching)
 
 ### Player NBT Data
-When a player first joins the world, an entry is appended to the nbt storage array `pdata:data -> playerdata`.<br>
-ee
+The very first time a player joins the world, an entry is appended to the nbt storage array `pdata:data -> playerdata`.<br>
+This entry contains:
+- `name`: Their username
+- `UUID`: Their UUID
+- `id`: A unique (score friendly) generated for this player
+- `storage`: A place to put custom player NBT data (initialized empty)
+The `id` field is also copied to the players `pdata_playerid` score.
 
+When a player rejoins, their UUID is searched for in `pdata:data -> playerdata`, and their `username` field as well as their `pdata_playerid` score is set accordingly.
 
-### Player ID
-Each player is assigned a unique `pdata_playerid` score value upon their first time joining the world.
+*Note: Player IDs start at 1 and increment each time a new one is assigned*
 
-When a player rejoins, their UUID is matched to their
+This pack deliberately only provides what is stated above, and does not provide an implementation for searching for or inserting data into the playerdata array.<br>
+*These tasks can be easily performed with 'gssen'.*
