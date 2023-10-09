@@ -165,7 +165,7 @@ When a player rejoins, their UUID is searched for in `pdata:data -> playerdata` 
 
 *Note: Player IDs start at 1 and increment each time a new one is assigned.*
 
-This pack deliberately only provides what is stated above, and does not provide an implementation for searching for or inserting data into the playerdata array.<br>
+This pack deliberately only provides what is stated above; does not provide an implementation for searching for or inserting data into the playerdata array.<br>
 *These tasks can be easily performed with 'gssen'.*
 
 ## Realm Rules & Star Bow
