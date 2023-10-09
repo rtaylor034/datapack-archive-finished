@@ -1,4 +1,5 @@
-## Archive Description
+Packs
+=====
 This repository is an archive for datapacks that I am no longer working on but are in a "finished" state, meaning that they are stable enough to be downloaded and used by someone other than me.
 This does not necessarily mean that they are ready or meant for public use, just that they perform their function properly and cleanly.
 
