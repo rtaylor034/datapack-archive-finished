@@ -2,7 +2,7 @@
 This repository is an archive for datapacks that I am no longer working on but are in a "finished" state, meaning that they are stable enough to be downloaded and used by someone other than me.
 This does not necessarily mean that they are ready or meant for public use, just that they perform their function properly and cleanly.
 
-Packs here vary in quality and standardization, not only becuase of differences in intended usage but also the difference in my own skill/experience when a given pack was made.
+Packs here vary in quality and standardization, not only becuase of differences in intended usage but also the difference in my own skill when a given pack was made.
 
 The descriptions provided by this README is not fully comprehensive, I do not actually expect these packs to be publicly used.
 *Packs that are meant for public use will have their own repository.*
@@ -20,7 +20,7 @@ This pack has a [youtube video](https://youtu.be/PvYTfHrL38M) that I made when I
 ## Xp Capacitors
 **namespace: 'xpcap'**
 
-This pack also has a (this time edited) [youtube video](https://youtu.be/PvYTfHrL38M) that I made when I was 16.
+This pack also has a (this time edited) [youtube video](https://youtu.be/h6vupjO0xZU) that I made when I was 16.
 
 ## Death Boxes v2
 **namespace: 'gdeathboxes'**
