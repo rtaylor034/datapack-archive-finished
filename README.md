@@ -1,4 +1,4 @@
-Packs
+Archive Description
 =====
 This repository is an archive for datapacks that I am no longer working on but are in a "finished" state, meaning that they are stable enough to be downloaded and used by someone other than me.
 This does not necessarily mean that they are ready or meant for public use, just that they perform their function properly and cleanly.
@@ -124,7 +124,7 @@ This is the one of the more fleshed out packs in this list.
 ## Loggr
 **namespace: 'loggr'**
 
-A very simple logging api for datapack development/overseeing.
+A simple logging api for datapack development/overseeing.
  Has its own (unfinished) [readme.txt](Packs/Loggr/data/loggr/functions/readme.txt)
 
 All logs pushed to the front of nbt storage array `loggr:data -> logs`.<br>
@@ -135,7 +135,7 @@ A player can set their `loggr_listento` score to listen to logs with a log level
 ## Name Colors
 **namespace: 'namecolor'**
 
-A very simple pack that allows players to change their name color. (Implemented using teams)
+A zero-cost pack that allows players to change their name color. (Implemented using teams)
 
 Players can run:
 ```/trigger namecolor set 0```
