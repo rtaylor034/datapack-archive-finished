@@ -23,12 +23,12 @@ Every public function is in the format `slime/functions/<category>/.../<function
 Documentation for each function is contained within it's `run.mcfunction` file.
 ### Summary of Included Functions
 - Array
-  - `cycleto`: Cycles through an array until the given NBT match is found at element 0.
+  - `cycleto`: Cycles through an array until the given NBT match is found at element 0 (or if the entire array is cycled).
   - `getmatching`: Finds elements of an array that match given NBT.
   - `mergetoall`: Merges given NBT to all elements of an array.
   - `seperateby`: Inserts a duplicate of a given element inbetween every element of an array.
 - Math
-  - `mot2rot`: 'Motion to Rotation' - Converts a positional Vector3 to a rotational Vector2 (direction).
+  - `mot2rot`: *Motion to Rotation.* Converts a Vector3 position to a Vector2 direction.
   - `rot2mot`: Inverse of `mot2rot`.
   - `rgb2decimal`: Converts a 0-255 Vector3 color to a decimal representation. (Only really useful for custom leather dying)
   - `random`: Generates a random number between 0 and a given value.
@@ -36,7 +36,7 @@ Documentation for each function is contained within it's `run.mcfunction` file.
   - `xpbar/set`: Sets the players XP bar precicely to the given percentage and level.
 - Text
   - `parse`: Parses unfriendly dynamic json text to friendly static json text. (implemented with setting/getting sign text NBT)
-  
+
 ## Death Boxes v1
 **namespace: 'realm'**
 *(Even though this namespace is is bad, I will not be changing it due to its archived status)*
