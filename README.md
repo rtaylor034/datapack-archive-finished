@@ -8,14 +8,14 @@ Packs here vary in quality and standardization, not only becuase of differences 
 The descriptions provided by this README is not fully comprehensive, I do not actually expect these packs to be publicly used.
 *Packs that are meant for public use will have their own repository.*
 
-**All packs work with Minecraft 1.19 unless otherwise stated**
+**All packs work with Minecraft 1.19 unless otherwise stated.**
 
 Packs
 ======
 ## SlimeCore v1
 **namespace: 'slime'**
 
-A library pack that provides various common and/or useful functions.
+A library pack that provides generalized implementations for common and/or useful functions.
 
 Also provides a 'tracker' API for storing custom player NBT data.
 
@@ -40,6 +40,7 @@ This pack also includes a [text file](Packs/SlimeCore%20v1/DOCS.txt) with genera
   - `xpbar/set`: Sets the players XP bar precicely to the given percentage and level.
 - Text
   - `parse`: Parses unfriendly dynamic json text to friendly static json text. (implemented with setting/getting sign text NBT)
+  - `packsignature`: Formats given text to fit a standard "signature" format. (See [GConstruct v1](https://github.com/rtaylor034/datapack-archive-unfinished#gconstruct-v1))
 
 ## Death Boxes v1
 **namespace: 'realm'**
@@ -61,15 +62,15 @@ Very similar to 'Death Boxes v1' except for the following differences:
   - Death Boxes cannot be destroyed by lava/explosions by default. (This behavior can be changed through [pack controls](Packs/Death%20Boxes%20v2/data/gdeathboxes/functions/controls/setdefaults.mcfunction))
 - Instead of opening immediately, Death Boxes can be stored in inventory space, and only open when held in hand.
 - Death Boxes emit particles only seen by their owner. (This can also be changed through [pack controls](Packs/Death%20Boxes%20v2/data/gdeathboxes/functions/controls/setdefaults.mcfunction))
-- Better and cleaner implementation in general.
+- Cleaner implementation in general.
 
 ## Gssentials
 **namespace: 'gssen'**
 
 A simple library pack that provides common math and array operations.<br>
-Just a high-quality rewrite of a subset of SlimeCore v1.
+An up-to-date rewrite of (a subset of) SlimeCore v1.
 
-Documentation is provided in each functions respective gssen/functions/api/... path.
+Documentation is provided in each functions respective `gssen/functions/api/...` path.
 
 Includes an [example API function](Packs/Gssentials/data/gssen/functions/api/myapifunction.mcfunction) to outline what is to be expected of documentation.<br>
 *NOTE: This is more in-line with my current documentation standards, although it does not cover everything.*
