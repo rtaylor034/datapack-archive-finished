@@ -15,7 +15,12 @@ Packs
 **namespace: 'realm'**
 *(Even though this namespace is is bad, I will not be changing it due to its archived status)*
 
-This pack has a [youtube video](https://youtu.be/PvYTfHrL38M)
+This pack has a [youtube video](https://youtu.be/PvYTfHrL38M) that I made when I was 16.
+
+## Xp Capacitors
+**namespace: 'xpcap'**
+
+This pack also has a (this time edited) [youtube video](https://youtu.be/PvYTfHrL38M) that I made when I was 16.
 
 ## Death Boxes v2
 **namespace: 'gdeathboxes'**
@@ -124,5 +129,34 @@ A very simple logging api for datapack development/overseeing.
 All logs made by this api are stored in the front of the nbt storage array `loggr:data -> logs`.
 This array has a default soft 'capacity' of 10000 (can be changed via [settings](Packs/Loggr/data/loggr/functions/settings.mcfunction)), and will delete from the back of the array to match this capacity every 5 seconds.
 
-
 A player can set their `loggr_listento` score to listen to logs with a log level greather than or equal to it, recieving real-time chat messages.
+
+## Name Colors
+**namespace: 'namecolor'**
+
+A very simple pack that allows players to change their name color. (Implemented using teams)
+
+Players can run:
+```/trigger namecolor set 0```
+to bring up a clickable menu.
+
+Alternatively, players can run:
+```/trigger namecolor set <value>```
+if the score value associated with their desired color is known.
+
+## PlayerData
+**namespace: 'pdata'**
+
+Provides nbt storage data as well as a score ID unique to each player.
+
+Both player data and score ID is kept consistent through player name changes. (Uses UUID matching)
+
+### Player NBT Data
+When a player first joins the world, an entry is appended to the nbt storage array `pdata:data -> playerdata`.<br>
+ee
+
+
+### Player ID
+Each player is assigned a unique `pdata_playerid` score value upon their first time joining the world.
+
+When a player rejoins, their UUID is matched to their
