@@ -2,7 +2,7 @@
 This repository is an archive for datapacks that I am no longer working on but are in a "finished" state, meaning that they are stable enough to be downloaded and used by someone other than me.
 This does not necessarily mean that they are ready or meant for public use, just that they perform their function properly and cleanly.
 
-Packs here vary in quality, not only becuase of differences in intended usage but also the difference in my own skill when a given pack was made.
+Packs here vary in quality and standardization, not only becuase of differences in intended usage but also the difference in my own skill/experience when a given pack was made.
 
 The descriptions provided by this README is not fully comprehensive, I do not actually expect these packs to be publicly used.
 *Packs that are meant for public use will have their own repository.*
@@ -166,3 +166,9 @@ When a player rejoins, their UUID is searched for in `pdata:data -> playerdata` 
 
 This pack deliberately only provides what is stated above, and does not provide an implementation for searching for or inserting data into the playerdata array.<br>
 *These tasks can be easily performed with 'gssen'.*
+
+## Realm Rules & Star Bow
+*These packs were for personal use and would not make sense to describe/document*
+
+# Worlds
+I have yet to finish a world project.
