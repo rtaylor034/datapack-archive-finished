@@ -19,13 +19,14 @@ A library pack that provides generalized implementations for common and/or usefu
 
 Also provides a 'tracker' API for storing custom player NBT data.
 
-*This was my personal core library pack that I would use as a dependency for essentially every pack I wrote after it (see the [unfinished datapack archive](https://github.com/rtaylor034/datapack-archive-unfinished)), as well as the predecessor of my later library packs [Gssentials](https://github.com/rtaylor034/datapack-archive-finished#gssentials) and [PlayerData](https://github.com/rtaylor034/datapack-archive-finished#playerdata)*
-
 Every public function is in the format `slime/functions/<category>/.../<function>/run.mcfunction`.<br>
 Documentation for each function is contained within it's `run.mcfunction` file.
 
 This pack also includes a [text file](Packs/SlimeCore%20v1/DOCS.txt) with general documentation formatting standards of the time.<br>
 *NOTE: these are not complete nor are they up to date with my current standards.*
+
+*This was my personal core library that I would use as a dependency for essentially every pack I wrote after it (see the [unfinished datapack archive](https://github.com/rtaylor034/datapack-archive-unfinished)).<br>
+Serves as the predecessor of my later library packs [Gssentials](https://github.com/rtaylor034/datapack-archive-finished#gssentials) and [PlayerData](https://github.com/rtaylor034/datapack-archive-finished#playerdata)*
 
 ### Summary of Included Library Functions
 - Array
