@@ -153,17 +153,16 @@ Provides nbt storage data as well as a score ID unique to each player.<br>
 Both player data and score ID is kept consistent through player name changes. (Uses UUID matching)
 
 ### Player NBT Data
-The very first time a player joins the world, an entry is appended to the nbt storage array `pdata:data -> playerdata`.<br>
-This entry contains:
+The very first time a player joins the world, an entry is appended to the nbt storage array `pdata:data -> playerdata` containing:
 - `name`: Their username
 - `UUID`: Their UUID
-- `id`: A unique (score friendly) generated for this player
+- `id`: A unique (score friendly) identifier
 - `storage`: A place to put custom player NBT data (initialized empty)
 The `id` field is also copied to the players `pdata_playerid` score.
 
-When a player rejoins, their UUID is searched for in `pdata:data -> playerdata`, and their `username` field as well as their `pdata_playerid` score is set accordingly.
+When a player rejoins, their UUID is searched for in `pdata:data -> playerdata` and their `username` field as well as their `pdata_playerid` score is set accordingly.
 
-*Note: Player IDs start at 1 and increment each time a new one is assigned*
+*Note: Player IDs start at 1 and increment each time a new one is assigned.*
 
 This pack deliberately only provides what is stated above, and does not provide an implementation for searching for or inserting data into the playerdata array.<br>
 *These tasks can be easily performed with 'gssen'.*
