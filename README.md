@@ -8,14 +8,14 @@ Packs here vary in quality and standardization, not only becuase of differences 
 The descriptions provided by this README is not fully comprehensive, I do not actually expect these packs to be publicly used.
 *Packs that are meant for public use will have their own repository.*
 
-**All packs are meant for Minecraft 1.19 unless otherwise stated**
+**All packs work with Minecraft 1.19 unless otherwise stated**
 
 Packs
 ======
 ## SlimeCore v1
 **namespace: 'slime'**
 
-A library pack that provides various common and/or useful operations.
+A library pack that provides various common and/or useful functions.
 
 Also provides a 'tracker' API for storing custom player NBT data.
 
@@ -23,7 +23,7 @@ Every public function is in the format `slime/functions/<category>/.../<function
 Documentation for each function is contained within it's `run.mcfunction` file.
 
 This pack also includes a [text file](Packs/SlimeCore%20v1/DOCS.txt) with general documentation formatting standards of the time.<br>
-*these are not up to date with my current standards*
+*NOTE: these are not complete nor are they up to date with my current standards.*
 
 ### Summary of Included Functions
 - Array
@@ -72,7 +72,7 @@ Just a high-quality rewrite of a subset of SlimeCore v1.
 Documentation is provided in each functions respective gssen/functions/api/... path.
 
 Includes an [example API function](Packs/Gssentials/data/gssen/functions/api/myapifunction.mcfunction) to outline what is to be expected of documentation.<br>
-*This is more in-line with my current documentation standards, although it does not cover everything*
+*NOTE: This is more in-line with my current documentation standards, although it does not cover everything.*
 
 Despite being in the "finished" archive, this pack is not finished (although it is stable), but it is a dependency of some finished packs.
 
