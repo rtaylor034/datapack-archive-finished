@@ -58,8 +58,7 @@ This entity stores the following NBT data under its `data` field:
 Players are also assigned a unique `slime_playerid` score for identification.<br>
 A player's designated tracker is assigned the same `slime_playerid` score as the player.
 
-Trackers are interacted with through the `player/tracker/find/run.mcfunction` and `player/tracker/unfind/run.mcfunction` functions. <br>
-Documentation is provided within the function files.
+Trackers are interacted with through the `player/tracker/find/run.mcfunction` and `player/tracker/unfind/run.mcfunction` functions.
 
 ## Death Boxes v1
 **namespace: 'realm'**
