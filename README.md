@@ -91,7 +91,7 @@ An up-to-date rewrite of (a subset of) SlimeCore v1.
 Documentation is provided in each functions respective `gssen/functions/api/...` path.
 
 Includes an [example API function](Packs/Gssentials/data/gssen/functions/api/myapifunction.mcfunction) to outline what is to be expected of documentation.<br>
-*NOTE: This is more in-line with my current documentation standards, although it does not cover everything.*
+*NOTE: This is more in-line with my current documentation standards as of 2023, although it does not cover everything.*
 
 Despite being in the "finished" archive, this pack is not finished (although it is stable), but it is a dependency of some finished packs.
 
