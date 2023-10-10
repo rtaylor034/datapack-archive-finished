@@ -55,7 +55,7 @@ This entity stores the following NBT data under its `data` field:
 - `playerName`: The username of the player
 - `UUID`: The UUID of the player
 
-Players are also assigned a unique `slime_playerid` score for identification.<br>
+Players are also assigned a unique `slime_playerid` score for identification (that is kept through name changes)<br>
 A player's designated tracker is assigned the same `slime_playerid` score as the player.
 
 Trackers are interacted with through the `player/tracker/find/run.mcfunction` and `player/tracker/unfind/run.mcfunction` functions.
@@ -205,6 +205,8 @@ if the score value associated with their desired color is known.
 
 Provides nbt storage data as well as a score ID unique to each player.<br>
 Both player data and score ID is kept consistent through player name changes. (Uses UUID matching)<br>
+
+This is a more efficient and robust implementation of what trackers in [SlimeCore v1](https://github.com/rtaylor034/datapack-archive-finished#slimecore-v1) provided.
 
 ### Player NBT Data
 The very first time a player joins the world, an entry is appended to the nbt storage array `pdata:data -> playerdata` containing:
