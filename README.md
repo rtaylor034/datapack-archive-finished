@@ -200,8 +200,8 @@ if the score value associated with their desired color is known.
 
 ## PlayerData
 **namespace: 'pdata'**<br>
-**dependencies: 'gssen'**<br>
-**optionally supports: 'loggr'**
+**dependencies: 'gssen' ([Gssentials](https://github.com/rtaylor034/datapack-archive-finished#gssentials))**<br>
+**optionally supports: 'loggr' ([Loggr](https://github.com/rtaylor034/datapack-archive-finished#loggr))**
 
 Provides nbt storage data as well as a score ID unique to each player.<br>
 Both player data and score ID is kept consistent through player name changes. (Uses UUID matching)<br>
