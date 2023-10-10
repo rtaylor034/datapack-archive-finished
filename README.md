@@ -17,7 +17,7 @@ Packs
 
 A library pack that provides generalized implementations for common and/or useful functions.
 
-Also provides a 'tracker' API for storing custom player NBT data.
+Also provides a 'tracker' API for storing custom player NBT data and uniquely identifying players through a scoreboard objective.
 
 Every public function is in the format `slime/functions/<category>/.../<function>/run.mcfunction`.<br>
 Documentation for each function is contained within it's `run.mcfunction` file.
@@ -27,7 +27,7 @@ This pack also includes a [text file](Packs/SlimeCore%20v1/DOCS.txt) with genera
 
 *This was my personal core library that I would use as a dependency for essentially every pack I wrote after it (see the [unfinished datapack archive](https://github.com/rtaylor034/datapack-archive-unfinished)).*
 
-*Serves as the predecessor of my later library packs [Gssentials](https://github.com/rtaylor034/datapack-archive-finished#gssentials) and [PlayerData](https://github.com/rtaylor034/datapack-archive-finished#playerdata).*
+*Serves as the predecessor to [Gssentials](https://github.com/rtaylor034/datapack-archive-finished#gssentials) and [PlayerData](https://github.com/rtaylor034/datapack-archive-finished#playerdata).*
 
 ### Summary of Included Library Functions
 - Array
@@ -47,7 +47,19 @@ This pack also includes a [text file](Packs/SlimeCore%20v1/DOCS.txt) with genera
   - `packsignature`: Formats given text to fit a standard "signature" format. (See [GConstruct v1](https://github.com/rtaylor034/datapack-archive-unfinished#gconstruct-v1))
 
 ### Trackers
+Trackers provide a method of custom player NBT data, aswell as a system to keep a unique player ID score assigned to the same player through name changes.<br>
+*(very similar to [PlayerData](https://github.com/rtaylor034/datapack-archive-finished#playerdata), but utilizes marker entities instead of NBT storage to store data)*
 
+The very first time a player joins the world, A 'tracker' marker entity is spawned and designated to them.<br>
+This entity stores the following NBT data under its `data` field:
+- `playerName`: The username of the player
+- `UUID`: The UUID of the player
+
+Players are also assigned a unique `slime_playerid` score for identification.<br>
+A player's designated tracker is assigned the same `slime_playerid` score as the player.
+
+Trackers are interacted with through the `player/tracker/find/run.mcfunction` and `player/tracker/unfind/run.mcfunction` functions. <br>
+Documentation is provided within the function files.
 
 ## Death Boxes v1
 **namespace: 'realm'**
