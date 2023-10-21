@@ -86,7 +86,7 @@ Very similar to 'Death Boxes v1' except for the following differences:
 **namespace: 'gssen'**
 
 A simple library pack that provides common math and array operations.<br>
-An up-to-date rewrite of (a subset of) [SlimeCore v1](https://github.com/rtaylor034/datapack-archive-finished#slimecore-v1).
+*An up-to-date rewrite of (a subset of) [SlimeCore v1](https://github.com/rtaylor034/datapack-archive-finished#slimecore-v1).*
 
 Documentation is provided in each functions respective `gssen/functions/api/...` path.
 
@@ -206,7 +206,7 @@ if the score value associated with their desired color is known.
 Provides nbt storage data as well as a score ID unique to each player.<br>
 Both player data and score ID is kept consistent through player name changes. (Uses UUID matching)<br>
 
-This is a more efficient and robust implementation of what trackers in [SlimeCore v1](https://github.com/rtaylor034/datapack-archive-finished#slimecore-v1) provided.
+*This is a more efficient and robust implementation of what trackers in [SlimeCore v1](https://github.com/rtaylor034/datapack-archive-finished#slimecore-v1) provided.*
 
 ### Player NBT Data
 The very first time a player joins the world, an entry is appended to the nbt storage array `pdata:data -> playerdata` containing:
