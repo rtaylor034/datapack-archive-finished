@@ -61,7 +61,7 @@ Trackers are interacted with through the `player/tracker/find/run.mcfunction` an
 
 ## Death Boxes v1
 **namespace: 'realm'**
-*(Even though this namespace is is bad, I will not be changing it due to its archived status)*
+*(At the time of creation, I was not worried about good public naming conventions.)*
 
 This pack has a [youtube video](https://youtu.be/PvYTfHrL38M) that I made when I was 16.
 
