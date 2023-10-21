@@ -27,7 +27,7 @@ This pack also includes a [text file](Packs/SlimeCore%20v1/DOCS.txt) with genera
 
 *This was my personal core library that I would use as a dependency for essentially every pack I wrote after it (see the [unfinished datapack archive](https://github.com/rtaylor034/datapack-archive-unfinished)).*
 
-*Serves as the predecessor to [Gssentials](https://github.com/rtaylor034/datapack-archive-finished#gssentials) and [PlayerData](https://github.com/rtaylor034/datapack-archive-finished#playerdata).*
+*The predecessor to [Gssentials](https://github.com/rtaylor034/datapack-archive-finished#gssentials) and [PlayerData](https://github.com/rtaylor034/datapack-archive-finished#playerdata).*
 
 ### Summary of Included Library Functions
 - Array
