@@ -23,7 +23,7 @@ Every public function is in the format `slime/functions/<category>/.../<function
 Documentation for each function is contained within it's `run.mcfunction` file.
 
 This pack also includes a [text file](Packs/SlimeCore%20v1/DOCS.txt) with general documentation formatting standards of the time.<br>
-*these are not complete nor are they up to date with my current standards.*
+*This file is not complete nor is it up to date with my current standards.*
 
 *This was my personal core library that I would use as a dependency for essentially every pack I wrote after it (see the [unfinished datapack archive](https://github.com/rtaylor034/datapack-archive-unfinished)).*
 
@@ -48,7 +48,7 @@ This pack also includes a [text file](Packs/SlimeCore%20v1/DOCS.txt) with genera
 
 ### Trackers
 Trackers provide a method of custom player NBT data, aswell as a system to keep a unique player ID score assigned to the same player through name changes.<br>
-*(very similar to [PlayerData](https://github.com/rtaylor034/datapack-archive-finished#playerdata), but utilizes marker entities instead of NBT storage to store data)*
+*Original idea that led to [PlayerData](https://github.com/rtaylor034/datapack-archive-finished#playerdata)*
 
 The very first time a player joins the world, A 'tracker' marker entity is spawned and designated to them.<br>
 This entity stores the following NBT data under its `data` field:
