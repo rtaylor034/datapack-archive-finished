@@ -23,7 +23,7 @@ Every public function is in the format `slime/functions/<category>/.../<function
 Documentation for each function is contained within it's `run.mcfunction` file.
 
 This pack also includes a [text file](Packs/SlimeCore%20v1/DOCS.txt) with general documentation formatting standards of the time.<br>
-*NOTE: these are not complete nor are they up to date with my current standards.*
+*these are not complete nor are they up to date with my current standards.*
 
 *This was my personal core library that I would use as a dependency for essentially every pack I wrote after it (see the [unfinished datapack archive](https://github.com/rtaylor034/datapack-archive-unfinished)).*
 
@@ -91,7 +91,7 @@ A simple library pack that provides common math and array operations.<br>
 Documentation is provided in each functions respective `gssen/functions/api/...` path.
 
 Includes an [example API function](Packs/Gssentials/data/gssen/functions/api/myapifunction.mcfunction) to outline what is to be expected of documentation.<br>
-*NOTE: This is more in-line with my current documentation standards as of 2023, although it does not cover everything.*
+*This is more in-line with my current documentation standards as of 2023, although it does not cover everything.*
 
 Despite being in the "finished" archive, this pack is not finished (although it is stable), but it is a dependency of some finished packs.
 
@@ -218,7 +218,7 @@ The `id` field is also copied to the players `pdata_playerid` score.
 
 When a player rejoins, their UUID is searched for in `pdata:data -> playerdata` and their `username` field as well as their `pdata_playerid` score is set accordingly.
 
-*Note: Player IDs start at 1 and increment each time a new one is assigned.*
+*Player IDs start at 1 and increment each time a new one is assigned.*
 
 This pack deliberately only provides what is stated above; does not provide an implementation for searching for or inserting data into the playerdata array.<br>
 *These tasks can be easily performed with 'gssen'.*
