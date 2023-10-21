@@ -86,7 +86,7 @@ Very similar to 'Death Boxes v1' except for the following differences:
 **namespace: 'gssen'**
 
 A simple library pack that provides common math and array operations.<br>
-An up-to-date rewrite of (a subset of) SlimeCore v1.
+An up-to-date rewrite of (a subset of) [SlimeCore v1](https://github.com/rtaylor034/datapack-archive-finished#slimecore-v1).
 
 Documentation is provided in each functions respective `gssen/functions/api/...` path.
 
