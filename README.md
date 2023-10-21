@@ -48,7 +48,6 @@ This pack also includes a [text file](Packs/SlimeCore%20v1/DOCS.txt) with genera
 
 ### Trackers
 Trackers provide a method of custom player NBT data, aswell as a system to keep a unique player ID score assigned to the same player through name changes.<br>
-*Original idea that led to [PlayerData](https://github.com/rtaylor034/datapack-archive-finished#playerdata)*
 
 The very first time a player joins the world, A 'tracker' marker entity is spawned and designated to them.<br>
 This entity stores the following NBT data under its `data` field:
@@ -86,7 +85,7 @@ Very similar to 'Death Boxes v1' except for the following differences:
 **namespace: 'gssen'**
 
 A simple library pack that provides common math and array operations.<br>
-*An up-to-date rewrite of (a subset of) [SlimeCore v1](https://github.com/rtaylor034/datapack-archive-finished#slimecore-v1).*
+*Is an up-to-date rewrite of (a subset of) [SlimeCore v1](https://github.com/rtaylor034/datapack-archive-finished#slimecore-v1).*
 
 Documentation is provided in each functions respective `gssen/functions/api/...` path.
 
