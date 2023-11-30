@@ -227,3 +227,7 @@ This pack deliberately only provides what is stated above; does not provide an i
 
 # Worlds
 I have yet to finish a world project.
+
+# Project Tags
+
+- [Archived](https://github.com/rtaylor034/project-tags)
