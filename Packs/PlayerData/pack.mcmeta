@@ -1,6 +1,0 @@
-{
-	"pack": {
-		"pack_format": 14,
-		"description": "Stores consistent player data and assigns each player a unique ID. -GFunction"
-	}
-}
