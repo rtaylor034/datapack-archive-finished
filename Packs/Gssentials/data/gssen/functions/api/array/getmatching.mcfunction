@@ -1,4 +1,4 @@
-#> gssen : api/array > getmatching
+@#> gssen : api/array > getmatching
 #--------------------
 # -> array : obj[]
 # -> match : obj
