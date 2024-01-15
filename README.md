@@ -101,8 +101,7 @@ Despite being in the "finished" archive, this pack is not finished (although it 
 ## Hard Mobs v1
 **namespace: 'bmobs'**
 
-Changes a handful of common hostile mobs with intent to make combat more interesting and difficult.
-This is the one of the more fleshed out packs in this list.
+Changes a handful of hostile mobs with intent to make combat more interesting and difficult.
 
 ### Zombie
 - Increased health.
