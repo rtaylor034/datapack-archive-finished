@@ -72,7 +72,7 @@ This pack has a [youtube video](https://youtu.be/PvYTfHrL38M) that I made when I
 ## Xp Capacitors
 **namespace: 'xpcap'**
 
-This pack also has a (this time edited) [youtube video](https://youtu.be/h6vupjO0xZU) that I made when I was 16.
+This pack also has a [youtube video](https://youtu.be/h6vupjO0xZU) that I made when I was 16.
 
 ## Death Boxes v2
 **namespace: 'gdeathboxes'**
