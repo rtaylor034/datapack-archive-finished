@@ -4,7 +4,7 @@
 [![Gfunction Status](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Frtaylor034%2Fproject-tags%2Fmain%2Ftags%2Fstatus%2Fviable.json)](https://github.com/rtaylor034/project-tags)
 [![Gfunction Stance](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Frtaylor034%2Fproject-tags%2Fmain%2Ftags%2Fstance%2Farchived.json)](https://github.com/rtaylor034/project-tags)
 
-This repository is an archive for datapacks that I am no longer working on but are in a "finished" state, meaning that they are stable enough to be downloaded and used by someone other than me.
+This repository is an archive for datapacks that: I am no longer working on, do not have their own repository (becuase they were created before I used github), and are considered "finished".
 This does not necessarily mean that they are ready or meant for public use, just that they perform their function properly and cleanly.
 
 Packs here vary in quality and standardization, not only becuase of differences in intended usage but also the difference in my own skill when a given pack was made.
@@ -12,7 +12,7 @@ Packs here vary in quality and standardization, not only becuase of differences 
 The descriptions provided by this README is not fully comprehensive, I do not actually expect these packs to be publicly used.
 *Packs that are meant for public use will have their own repository.*
 
-**All packs work with Minecraft 1.19 unless otherwise stated.**
+**All packs are meant for Minecraft 1.19 unless otherwise stated.**
 
 Packs
 ======
@@ -72,7 +72,7 @@ This pack has a [youtube video](https://youtu.be/PvYTfHrL38M) that I made when I
 ## Xp Capacitors
 **namespace: 'xpcap'**
 
-This pack also has a (this time edited) [youtube video](https://youtu.be/h6vupjO0xZU) that I made when I was 16.
+This pack also has a [youtube video](https://youtu.be/h6vupjO0xZU) that I made when I was 16.
 
 ## Death Boxes v2
 **namespace: 'gdeathboxes'**
@@ -101,8 +101,7 @@ Despite being in the "finished" archive, this pack is not finished (although it 
 ## Hard Mobs v1
 **namespace: 'bmobs'**
 
-Changes a handful of common hostile mobs with intent to make combat more interesting and difficult.
-This is the one of the more fleshed out packs in this list.
+Changes a handful of hostile mobs with intent to make combat more interesting and difficult.
 
 ### Zombie
 - Increased health.
