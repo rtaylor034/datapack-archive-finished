@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 @#> gssen : api/array > getmatching
+=======
+#> gssen : api/array > getmatching
+>>>>>>> parent of 9d591b8 (updated README)
 #--------------------
 # -> array : obj[]
 # -> match : obj

@@ -1,0 +1,7 @@
+{
+"replace": false,
+    "values": [
+        "minecraft:tripwire",
+		"#minecraft:pressure_plates"
+    ]
+}
